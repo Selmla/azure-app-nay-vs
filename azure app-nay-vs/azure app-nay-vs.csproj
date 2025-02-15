@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_nay_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/f7774683-f2a7-4409-bb3e-0e6967d640bd/resourceGroups/MyResourceGroup/providers/microsoft.insights/components/azure-app-nay-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>8c08b9db-732b-474a-8bce-67705dc80cc2</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
